@@ -6,7 +6,6 @@
 
 * **Cadastro de Tarefas:** Adicione tarefas com título, descrição, data de vencimento e status (pendente, em andamento, concluída).
 * **Visualização no Terminal:** Liste todas as tarefas cadastradas em um formato claro e organizado.
-* **Filtragem e Ordenação:** Filtre tarefas por status e ordene por data de vencimento.
 * **Edição e Exclusão:** Atualize ou remova tarefas diretamente pelo terminal.
 * **Persistência de Dados:** Os dados são armazenados localmente em um arquivo JSON, mantendo o histórico mesmo após fechar o programa.
 
