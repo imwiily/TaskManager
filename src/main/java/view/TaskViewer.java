@@ -100,7 +100,7 @@ public class TaskViewer {
         Scanner scanner = new Scanner(System.in);
         int option = scanner.nextInt();
         switch (option) {
-            // TODO: Edição do título
+            // Edição do título
             case 1 -> {
                 sendMessage(String.format(oldEdit, tarefa.getId(),"📝 Título", tarefa.getTitulo()));
                 System.out.print("Qua o novo título que você deseja? ");
@@ -109,7 +109,7 @@ public class TaskViewer {
                 tarefa.setTitulo(newTitle, tarefa.getId());
                 listAndEdit();
             }
-            // TODO: Edição do Status
+            // Edição do Status
             case 2 -> {
                 sendMessage(String.format(oldEdit, tarefa.getId(), "📍 Status" , tarefa.getStatus()));
                 System.out.println("Qua o novo status que você deseja? ");
@@ -127,7 +127,7 @@ public class TaskViewer {
                 }
                 listAndEdit();
             }
-            // TODO: Edição da descrição
+            // Edição da descrição
             case 3 -> {
                 Scanner internal = new Scanner(System.in);
                 sendMessage(String.format(oldEdit, tarefa.getId(), "📃 Descrição" ,tarefa.getStatus()));
@@ -136,7 +136,7 @@ public class TaskViewer {
                 tarefa.setDescricao(newDesc, tarefa.getId());
                 listAndEdit();
             }
-            // TODO: Edição da data de vencimento
+            // Edição da data de vencimento
             case 4 -> {
                 Scanner internal = new Scanner(System.in);
                 sendMessage(String.format(oldEdit, tarefa.getId(), "🗓️ Vencimento" ,tarefa.getStatus()));
@@ -145,7 +145,7 @@ public class TaskViewer {
                 tarefa.setDescricao(newData, tarefa.getId());
                 listAndEdit();
             }
-            // TODO: Sair do editor
+            // Sair do editor
             case 5 -> mainMenu();
 
         }

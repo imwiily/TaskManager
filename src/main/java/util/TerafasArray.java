@@ -15,7 +15,7 @@ public class TerafasArray {
     List<Tarefa> tarefaList = new ArrayList<>();
 
     public void JsonArray() throws IOException {
-        // TODO: Monta o Array de tarefas
+        // Monta o Array de tarefas
         String path = "src/main/resources/data/tarefas.json";
         File tarefas = new File(path);
         String tarefasJSONString = new String(Files.readAllBytes(tarefas.toPath()));
@@ -34,7 +34,7 @@ public class TerafasArray {
     }
 
     public Tarefa selectTarefas() throws IOException {
-        // TODO: Mostra o array de tarefas
+        // Mostra o array de tarefas
         Messages.sendMessage(" ");
         for (int i = 0; i < tarefaList.size(); i++) {
             System.out.println(
