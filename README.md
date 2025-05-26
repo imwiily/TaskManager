@@ -36,7 +36,7 @@ taskmananger/
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/seuusuario/taskmaster.git
+   git clone https://github.com/imwiily/TaskManager.git
    ```
 2. Importe o projeto em sua IDE Java preferida ou compile com `javac` no terminal.
 3. Certifique-se de que a biblioteca Gson esteja adicionada ao classpath.
