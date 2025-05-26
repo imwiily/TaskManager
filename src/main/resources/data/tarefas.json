@@ -3,7 +3,7 @@
     "dataDeVencimento": "a",
     "titulo": "Correção do codigo base;",
     "id": 1,
-    "descricao": "a",
+    "descricao": "30/05/25",
     "status": "Pendente"
   },
   {
@@ -11,6 +11,13 @@
     "titulo": "Atualização da API",
     "id": 2,
     "descricao": "b",
+    "status": "Pendente"
+  },
+  {
+    "dataDeVencimento": "30/05/25",
+    "titulo": "Adiconar database",
+    "id": 3,
+    "descricao": "Precisamos adicionar uma database ao sistema principal",
     "status": "Pendente"
   }
 ]

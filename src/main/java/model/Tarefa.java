@@ -33,7 +33,7 @@ public class Tarefa {
         ║ 📃 Descrição    : %s
         ║ 🗓️ Vencimento   : %s
         ╚════════════════════════════════╝
-        """, id, titulo, dataDeVencimento, descricao, status
+        """, id, titulo, status, descricao, dataDeVencimento
         );
     }
 
@@ -45,16 +45,8 @@ public class Tarefa {
         return status;
     }
 
-    public String getDescricao() {
-        return descricao;
-    }
-
     public String getTitulo() {
         return titulo;
-    }
-
-    public String getDataDeVencimento() {
-        return dataDeVencimento;
     }
 
     public void setStatus(Status status, int id) throws IOException {
@@ -74,15 +66,6 @@ public class Tarefa {
     public void setDescricao(String descricao, int id) throws IOException {
         setting("descricao", descricao, id);
         this.descricao = descricao;
-    }
-
-    public void setDataDeVencimento(String dataDeVencimento, int id) throws IOException {
-        setting("dataDeVencimento", dataDeVencimento, id);
-        this.dataDeVencimento = dataDeVencimento;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     public void setTitulo(String titulo, int id) throws IOException {
